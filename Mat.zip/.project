@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Mat.zip</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/images/2.jpeg</name>
+			<type>1</type>
+			<location>C:/Users/한국품질재단/Desktop/식자재 사진/2.jpeg</location>
+		</link>
+		<link>
+			<name>WebContent/images/4.jpg</name>
+			<type>1</type>
+			<location>C:/Users/한국품질재단/Desktop/식자재 사진/4.jpg</location>
+		</link>
+		<link>
+			<name>WebContent/images/fresh2.jpeg</name>
+			<type>1</type>
+			<location>C:/Users/한국품질재단/Desktop/kusina-master/images/fresh2.jpeg</location>
+		</link>
+		<link>
+			<name>WebContent/images/plus.jpg</name>
+			<type>1</type>
+			<location>C:/Users/한국품질재단/Desktop/식자재 사진/plus.jpg</location>
+		</link>
+	</linkedResources>
+</projectDescription>

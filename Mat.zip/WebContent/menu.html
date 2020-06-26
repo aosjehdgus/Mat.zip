@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>맛.zip - 냉장고 관리-냉장 보관</title>
+        <!-- 타이틀 수정 -->
+        <meta charset="utf-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Lovers+Quarrel"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <link rel="stylesheet" href="css/aos.css">
+
+        <link rel="stylesheet" href="css/ionicons.min.css">
+
+        <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/donghyun.css">
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style media="screen"> .wrap{ width: 2000px; height: 200px; overflow-x: scroll;
+        white-space:nowrap } .wrap img{ width:300px; height:100%; } </style> -->
+
+        <body>
+
+            <nav
+                class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+                id="ftco-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#ftco-nav"
+                        aria-controls="ftco-nav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="oi oi-menu"></span>
+                        Menu
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="ftco-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">오늘의 추천</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="blog-single.html" class="nav-link">요리 레시피</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="menu.html" class="nav-link">냉장고 관리</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="reservation.html" class="nav-link">장보기 메모</a>
+                            </li>
+                            <!--<li class="nav-item"><a href="about.html" class="nav-link"></a></li>-->
+                            <!--<li class="nav-item"><a href="contact.html"
+                            class="nav-link">Contact</a></li>-->
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary nav-link"
+                                    onclick="location.href='login.html' ">로그인</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- END nav -->
+
+            <section
+                class="hero-wrap hero-wrap-2"
+                style="background-image: url('images/fresh2.jpeg');"
+                data-stellar-background-ratio="0.1">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div
+                        class="row no-gutters slider-text align-items-center justify-content-center">
+                        <div class="col-md-9 ftco-animate text-center"></br>
+                    </br>
+                </br>
+            </br>
+        </br>
+    </br>
+    <h1 class="mb-2 bread">냉장고 관리</h1>
+    <p class="breadcrumbs">
+        <span class="mr-2">
+            <a href="index.html">오늘의 추천<i class="ion-ios-arrow-forward"></i>
+            </a>
+        </span>
+        <span>
+            <a href="menu.html">냉장고 관리
+                <i class="ion-ios-arrow-forward"></i>
+            </a>
+        </span>
+        <span>
+            <a href="menu.html">보관소
+                <i class="ion-ios-arrow-forward"></i>
+            </a>
+        </span>
+    </p>
+</div>
+<!-- p 태그 내용 수정 -->
+</div>
+</div>
+</section>
+
+<br>
+
+
+
+<!-- 냉장,냉동,실온 개체 수 측정하는 항목 검색창,검색 버튼, 항목 설정 기능 추가 끝 -->
+
+<div class="row">
+<div class="col-md-6 col-lg-6 menu-wrap">
+
+<div class="heading-menu text-center ftco-animate">
+<div class="header2">
+<h4>보관소</h4>
+</div>
+<div class="menus d-flex ftco-animate"></div>
+
+<div class="tab">
+
+<ul class="tabs">
+    <lii>
+        <aa href="#">냉장 보관&nbsp&nbsp</aa>
+    </lii>
+    <lii>
+        <aa href="#">냉동 보관&nbsp&nbsp</aa>
+    </lii>
+    <lii>
+        <aa href="#">상온 보관</aa>
+    </lii>
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+
+    <button
+    type="button"
+    class="btn btn-outline-secondary"
+    onclick="confirm('이동 하시겠습니까?') ">냉장 이동</button>
+    &nbsp
+    <button
+    type="button"
+    class="btn btn-outline-info"
+    onclick="confirm('이동 하시겠습니까?') ">냉동 이동</button>
+    &nbsp
+    <button
+    type="button"
+    class="btn btn-outline-danger"
+    onclick="confirm('이동 하시겠습니까?') ">상온 이동</button>
+    &nbsp
+    <button
+    type="button"
+    class="btn btn-outline-success"
+    onclick="confirm('삭제 하시겠습니까?') ">삭제</button>
+</ul>
+
+<!-- / tabs -->
+
+
+
+    <div class="tab_content">
+ <!-- 냉장 보관 -->
+        <div class="tabs_item">
+            <div class="menus d-flex ftco-animate">
+
+                <div class="parent2">
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                <figure class="snip1200">
+                    <img src="images/daepa.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(채소류)&nbsp<span>대파</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <figure class="snip1200">
+                    <img src="images/broco.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(채소류)&nbsp<span>브로콜리</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <figure class="snip1200">
+                    <img src="images/레몬.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(과일류)&nbsp<span>레몬</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                
+                </div>
+                
+                </div>
+
+                <div class="menus d-flex ftco-animate">
+
+                
+                    <div class="parent2">
+                        <section title=".roundedTwo">
+                            <!-- .roundedTwo -->
+                            <div class="roundedTwo">
+                              <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                              <label for="roundedTwo"></label>
+                            </div>
+                            <!-- end .roundedTwo -->
+                          </section>
+                    <figure class="snip1200">
+                        <img src="images/daepa.png" alt="sq-sample27"/>
+                        <figcaption>
+                            <p>유통 기한 : 14일<br>
+                                보관 일수 : 5일
+                                <br>
+                                구입 일자 : 20.06.23</p>
+                            <div class="heading">
+                                <h6>(채소류)&nbsp<span>대파</span></h6>
+                            </div>
+                        </figcaption>
+                        <aa href="#"></aa>
+                    </figure>
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                    <figure class="snip1200">
+                        <img src="images/broco.png" alt="sq-sample27"/>
+                        <figcaption>
+                            <p>유통 기한 : 14일<br>
+                                보관 일수 : 5일
+                                <br>
+                                구입 일자 : 20.06.23</p>
+                            <div class="heading">
+                                <h6>(채소류)&nbsp<span>브로콜리</span></h6>
+                            </div>
+                        </figcaption>
+                        <aa href="#"></aa>
+                    </figure>
+    
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                    <figure class="snip1200">
+                        <img src="images/레몬.png" alt="sq-sample27"/>
+                        <figcaption>
+                            <p>유통 기한 : 14일<br>
+                                보관 일수 : 5일
+                                <br>
+                                구입 일자 : 20.06.23</p>
+                            <div class="heading">
+                                <h6>(과일류)&nbsp<span>레몬</span></h6>
+                            </div>
+                        </figcaption>
+                        <aa href="#"></aa>
+                    </figure>
+                    
+                    </div>
+                    
+                    
+
+                    
+                    </div>
+         
+         </div>
+            <!-- / tabs_item 냉장 보관 -->
+       
+
+
+   
+
+<!-- 냉장 보관 끝-->
+
+
+<!-- 냉동 보관 시작-->
+<div class="tabs_item">
+
+
+
+
+        <div class="menus d-flex ftco-animate">
+
+            <div class="parent2">
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+            <figure class="snip1200">
+                <img src="images/아이스크림.png" alt="sq-sample27"/>
+                <figcaption>
+                    <p>유통 기한 : 14일<br>
+                        보관 일수 : 5일
+                        <br>
+                        구입 일자 : 20.06.23</p>
+                    <div class="heading">
+                        <h6>(기타)&nbsp<span>콘 아이스크림</span></h6>
+                    </div>
+                </figcaption>
+                <aa href="#"></aa>
+            </figure>
+            <section title=".roundedTwo">
+                <!-- .roundedTwo -->
+                <div class="roundedTwo">
+                  <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                  <label for="roundedTwo"></label>
+                </div>
+                <!-- end .roundedTwo -->
+              </section>
+            <figure class="snip1200">
+                <img src="images/daepa.png" alt="sq-sample27"/>
+                <figcaption>
+                    <p>유통 기한 : 14일<br>
+                        보관 일수 : 5일
+                        <br>
+                        구입 일자 : 20.06.23</p>
+                    <div class="heading">
+                        <h6>(채소류)&nbsp<span>대파</span></h6>
+                    </div>
+                </figcaption>
+                <aa href="#"></aa>
+            </figure>
+            <section title=".roundedTwo">
+                <!-- .roundedTwo -->
+                <div class="roundedTwo">
+                  <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                  <label for="roundedTwo"></label>
+                </div>
+                <!-- end .roundedTwo -->
+              </section>
+            <figure class="snip1200">
+                <img src="images/potato.png" alt="sq-sample27"/>
+                <figcaption>
+                    <p>유통 기한 : 14일<br>
+                        보관 일수 : 5일
+                        <br>
+                        구입 일자 : 20.06.23</p>
+                    <div class="heading">
+                        <h6>(채소류)&nbsp<span>감자</span></h6>
+                    </div>
+                </figcaption>
+                <aa href="#"></aa>
+            </figure>
+            
+            </div>
+            
+            </div>
+           
+            <div class="menus d-flex ftco-animate">
+
+                <div class="parent2">
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                <figure class="snip1200">
+                    <img src="images/아이스크림.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(기타)&nbsp<span>콘 아이스크림</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <figure class="snip1200">
+                    <img src="images/daepa.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(채소류)&nbsp<span>대파</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <figure class="snip1200">
+                    <img src="images/potato.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(채소류)&nbsp<span>감자</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                
+                </div>
+                
+                </div>
+ 
+ </div>
+        <!-- / tabs_item 냉동 보관 끝 -->
+
+         <!-- 상온 보관 시작-->
+         <div class="tabs_item">
+            <div class="menus d-flex ftco-animate">
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <div class="parent2">
+                <figure class="snip1200">
+                    <img src="images/스팸.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            
+                            <h6>(육류)&nbsp<span>스팸</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check" />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <figure class="snip1200">
+                    <img src="images/broco.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(채소류)&nbsp<span>브로콜리</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                <section title=".roundedTwo">
+                    <!-- .roundedTwo -->
+                    <div class="roundedTwo">
+                      <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                      <label for="roundedTwo"></label>
+                    </div>
+                    <!-- end .roundedTwo -->
+                  </section>
+                <figure class="snip1200">
+                    <img src="images/potato.png" alt="sq-sample27"/>
+                    <figcaption>
+                        <p>유통 기한 : 14일<br>
+                            보관 일수 : 5일
+                            <br>
+                            구입 일자 : 20.06.23</p>
+                        <div class="heading">
+                            <h6>(채소류)&nbsp<span>감자</span></h6>
+                        </div>
+                    </figcaption>
+                    <aa href="#"></aa>
+                </figure>
+                
+                </div>
+                
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                    <div class="parent2">
+                    <figure class="snip1200">
+                        <img src="images/스팸.png" alt="sq-sample27"/>
+                        <figcaption>
+                            <p>유통 기한 : 14일<br>
+                                보관 일수 : 5일
+                                <br>
+                                구입 일자 : 20.06.23</p>
+                            <div class="heading">
+                                
+                                <h6>(육류)&nbsp<span>스팸</span></h6>
+                            </div>
+                        </figcaption>
+                        <aa href="#"></aa>
+                    </figure>
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check" />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                    <figure class="snip1200">
+                        <img src="images/broco.png" alt="sq-sample27"/>
+                        <figcaption>
+                            <p>유통 기한 : 14일<br>
+                                보관 일수 : 5일
+                                <br>
+                                구입 일자 : 20.06.23</p>
+                            <div class="heading">
+                                <h6>(채소류)&nbsp<span>브로콜리</span></h6>
+                            </div>
+                        </figcaption>
+                        <aa href="#"></aa>
+                    </figure>
+                    <section title=".roundedTwo">
+                        <!-- .roundedTwo -->
+                        <div class="roundedTwo">
+                          <input type="checkbox" value="None" id="roundedTwo" name="check"  />
+                          <label for="roundedTwo"></label>
+                        </div>
+                        <!-- end .roundedTwo -->
+                      </section>
+                    <figure class="snip1200">
+                        <img src="images/potato.png" alt="sq-sample27"/>
+                        <figcaption>
+                            <p>유통 기한 : 14일<br>
+                                보관 일수 : 5일
+                                <br>
+                                구입 일자 : 20.06.23</p>
+                            <div class="heading">
+                                <h6>(채소류)&nbsp<span>감자</span></h6>
+                            </div>
+                        </figcaption>
+                        <aa href="#"></aa>
+                    </figure>
+                    
+                    </div>
+                    
+                    </div>
+        
+         
+         </div>
+        <!-- / tabs_item 상온 보관 끝-->
+
+    </div>
+    <!-- / tab_content -->
+</div>
+<!-- / tab -->
+
+
+
+</div>
+
+
+
+</div>
+<div class="col-md-6 col-lg-3 menu-wrap">
+
+<div class="searchbox">
+<div class="header3">
+<h4>식자재 재고</h4>
+<div class="menus d-flex ftco-animate"></div>
+<input onkeyup="filter()" type="text" id="value" placeholder="식자재를 입력하세요">
+
+</div>
+
+
+<div
+style="overflow-y:scroll; width:auto; height:400px; padding:4px; border:1 solid #000000;
+		;">
+
+<div class="container1">
+
+    <!--채소류 icon3 //과일류 icon2 // 육류 icon //어류 icon4 기타 icon5-->
+    <something class="sort">
+        <div class="item">
+            <span class="icon">육</span>
+            <span class="name">삼겹살</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon5">기</span>
+            <span class="name">우유</span>
+
+        </div>
+        <div class="item">
+            <span class="icon2">과</span>
+            <span class="name">사과</span>
+
+        </div>
+        <div class="item">
+            <span class="icon3">채</span>
+            <span class="name">감자</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon5">기</span>
+            <span class="name">우유</span>
+
+        </div>
+        <div class="item">
+            <span class="icon2">과</span>
+            <span class="name">사과</span>
+
+        </div>
+        <div class="item">
+            <span class="icon3">채</span>
+            <span class="name">브로콜리</span>
+
+        </div>
+        <div class="item">
+            <span class="icon2">과</span>
+            <span class="name">사과</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon5">기</span>
+            <span class="name">우유</span>
+
+        </div>
+        <div class="item">
+            <span class="icon5">기</span>
+            <span class="name">우유</span>
+
+        </div>
+        <div class="item">
+            <span class="icon4">어</span>
+            <span class="name">고등어</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon4">어</span>
+            <span class="name">삼치</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon5">기</span>
+            <span class="name">우유</span>
+
+        </div>
+        <div class="item">
+            <span class="icon3">채</span>
+            <span class="name">수박</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon5">기</span>
+            <span class="name">우유</span>
+
+        </div>
+        <div class="item">
+            <span class="icon3">채</span>
+            <span class="name">딸기</span>
+
+        </div>
+
+        <div class="item">
+            <span class="icon3">채</span>
+            <span class="name">참외</span>
+
+        </div>
+        <div class="item">
+            <span class="icon">육</span>
+            <span class="name">삼겹살</span>
+
+        </div>
+    </div>
+
+</div>
+
+</div>
+<br>
+
+</div>
+<div class="col-md-6 col-lg-3 menu-wrap">
+<div class="header4">
+<h4>식자재 준비</h4>
+
+
+
+</div>
+<div class="menus d-flex ftco-animate"></div>
+<div class="container">
+<input type="text" placeholder="필요한 식자재를 입력하세요" class="txt" >
+
+<div class="notdone">
+    <h5>Ready</h5>
+
+</div>
+
+<div class="done">
+    <h5>Done</h5>
+
+</div>
+<br>
+<button
+    type="button"
+    class="btn btn-primary"
+    onclick="location.href='blog-single.html' ">이 재료로 추천 받기</button>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+<div class="container">
+<div class="row mb-5">
+<div class="col-md-12 col-lg-12 text-center">
+<div class="ftco-footer-widget">
+    <h2 class="ftco-heading-2"><img src="images/logo.png"></h2>
+    <p>일요일은 내가 요리사? No!<br>매일매일 모두가 요리사!</p>
+    <ul class="ftco-footer-social list-unstyled float-md-none float-none mt-3">
+        <li class="ftco-animate">
+            <a href="#">
+                <span class="icon-twitter"></span></a>
+        </li>
+        <li class="ftco-animate">
+            <a href="#">
+                <span class="icon-facebook"></span></a>
+        </li>
+        <li class="ftco-animate">
+            <a href="#">
+                <span class="icon-instagram"></span></a>
+        </li>
+    </ul>
+</div>
+</div>
+<!-- <div class="col-md-6 col-lg-3"> <div class="ftco-footer-widget mb-4"> <h2
+class="ftco-heading-2">Open Hours</h2> <ul class="list-unstyled open-hours"> <li
+class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li> <li
+class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li> <li
+class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li> <li
+class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li> <li
+class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li> <li
+class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li> <li
+class="d-flex"><span>Sunday</span><span> Closed</span></li> </ul> </div> </div>
+<div class="col-md-6 col-lg-3"> <div class="ftco-footer-widget mb-4"> <h2
+class="ftco-heading-2">Newsletter</h2> <p>Far far away, behind the word
+mountains, far from the countries.</p> <form action="#" class="subscribe-form">
+<div class="form-group"> <input type="text" class="form-control mb-2
+text-center" placeholder="Enter email address"> <input type="submit"
+value="Subscribe" class="form-control submit px-3"> </div> </form> </div> </div>
+<div class="col-md-6 col-lg-3"> <div class="ftco-footer-widget mb-4"> <h2
+class="ftco-heading-2">Instagram</h2> <div class="thumb d-sm-flex"> <a href="#"
+class="thumb-menu img" style="background-image: url(images/insta-1.jpg);"> </a>
+<a href="#" class="thumb-menu img" style="background-image:
+url(images/insta-2.jpg);"> </a> <a href="#" class="thumb-menu img"
+style="background-image: url(images/insta-3.jpg);"> </a> </div> <div
+class="thumb d-flex"> <a href="#" class="thumb-menu img"
+style="background-image: url(images/insta-4.jpg);"> </a> <a href="#"
+class="thumb-menu img" style="background-image: url(images/insta-5.jpg);"> </a>
+<a href="#" class="thumb-menu img" style="background-image:
+url(images/insta-6.jpg);"> </a> </div> </div> </div> -->
+</div>
+<div class="row">
+<div class="col-md-12 text-center">
+
+<p>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY
+    3.0. -->
+    Copyright &copy;
+    <script>
+        document.write(new Date().getFullYear());
+    </script>
+    All rights reserved | This template is made with
+    <i class="icon-heart" aria-hidden="true"></i>
+    by
+    <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY
+    3.0. -->
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+<svg class="circular" width="48px" height="48px">
+<circle
+class="path-bg"
+cx="24"
+cy="24"
+r="22"
+fill="none"
+stroke-width="4"
+stroke="#eeeeee"/>
+<circle
+class="path"
+cx="24"
+cy="24"
+r="22"
+fill="none"
+stroke-width="4"
+stroke-miterlimit="10"
+stroke="#F96D00"/></svg>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+<script src="js/donghyun.js"></script>
+
+</body>
+</html>
