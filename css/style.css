@@ -3953,6 +3953,16 @@ input[type="button"].btn-block {
     border-bottom-left-radius: 0;
 }
 
+.input-group-addon {
+    padding: 17px 8px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
 .input-group-prepend,
 .input-group-append {
     display: -webkit-box;
@@ -7066,6 +7076,10 @@ a.close.disabled {
 
 .bg-primary {
     background-color: #007bff !important;
+}
+
+.bg-primary::after {
+    opacity: 0.5;
 }
 
 a.bg-primary:hover,
@@ -11981,7 +11995,7 @@ h5,
 }
 
 .form-control {
-    height: 52px !important;
+    height: 52px;
     background: #fff !important;
     color: #000000 !important;
     font-size: 16px;
@@ -12014,7 +12028,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-    padding: 7em 0;
+    padding: 2em 0;
     position: relative;
 }
 

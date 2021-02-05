@@ -2,554 +2,810 @@
 <html lang="en">
 
 <head>
-  <title>맛.zip</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>맛.zip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-  <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/aos.css">
 
-  <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
 
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/sanghyun.css"> `
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sanghyun.css">
+    <link rel="stylesheet" href="scss/sanghyun.scss">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">오늘의 추천</a></li>
-          <li class="nav-item"><a href="blog-single.html" class="nav-link">요리 레시피</a></li>
-          <li class="nav-item"><a href="menu.html" class="nav-link">냉장고 관리</a></li>
-          <li class="nav-item active"><a href="reservation.html" class="nav-link">장보기 메모</a></li>
-          <!--<li class="nav-item"><a href="about.html" class="nav-link"></a></li>-->
-          <!--<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>-->
-          <li class="nav-item"><button type="button" class="btn btn-primary nav-link"
-              onclick="location.href='login.html' ">로그인</button></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- END nav -->
-
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');"
-    data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row no-gutters slider-text align-items-center justify-content-center">
-        <div class="col-md-4 ftco-animate text-center">
-          <h1 class="mb-2 bread">장보기 메모</h1>
-          <p class="breadcrumbs"><span class="mr-2"><a href="index.html">오늘의 추천 <i
-                  class="ion-ios-arrow-forward"></i></a></span> <span>장보기 메모 <i
-                class="ion-ios-arrow-forward"></i></span></p>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">오늘의 추천</a></li>
+                    <li class="nav-item"><a href="blog-single.html" class="nav-link">요리 레시피</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link">냉장고 관리</a></li>
+                    <li class="nav-item active"><a href="reservation.html" class="nav-link">장보기 메모</a></li>
+                    <!--<li class="nav-item"><a href="about.html" class="nav-link"></a></li>-->
+                    <!--<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>-->
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="location.href='login.html' ">로그인</button>
         </div>
-      </div>
-    </div>
-  </section>
+    </nav>
+    <!-- END nav -->
 
-  <section class="ftco-section ftco-no-pt ftco-no-pb">
-    <div class="container">
-      <div class="row d-flex">
-
-        <!-- <div class="col-md-3 p-3 ftco-animate">
-          <div class="mb-3 progress"></div>
-          <h3 for="message ">장보기 메모</h3>
-          <div class="form-group">
-
-            <textarea name="" id="message" cols="30" rows="1" class="form-control" placeholder="요리명"></textarea>
-            <textarea name="" id="message" cols="30" rows="3" class="form-control" placeholder="레시피 재료를 메모하세요."></textarea>
-            <input type="submit" value="추가하기" class="btn py-3 px-5 btn-primary">
-
-            <div id="accordion">
-
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                    된장찌개
-                  </a>
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');"
+        data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+                <div class="col-md-4 ftco-animate text-center">
+                    <h1 class="mb-2 bread">장보기 메모</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">오늘의 추천 <i
+                                    class="ion-ios-arrow-forward"></i></a></span> <span>장보기 메모 <i
+                                class="ion-ios-arrow-forward"></i></span></p>
                 </div>
-                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                  <div class="card-body">
-                    된장 1/3컵(60g),
-                    물 약4컵(750mL),
-                    간마늘 1/2큰술(8g),
-                    육수용멸치 10마리(20g),
-                    애호박 1/2개(130g),
-                    양파 1/2개(80g),
-                    느타리버섯 1컵(80g),
-                    대파 2/3컵(60g),
-                    청양고추 2개(14g),
-                    홍고추 1/2개(7g),
-                    두부 1/2모(180g),
-                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-8 ftco-animate makereservation p-4 p-md-6">
+                    <div class="heading-section ftco-animate mb-5">
+
+                        <h2 class="mb-2">식재료 찾기</h2>
+
+                        <form action="#" class="search-form">
+                            <div class="form-group">
+                                <span class="icon icon-search"></span> <input type="text" class="form-control"
+                                    onkeyup="filter()" placeholder="제품명이나 상품명을 입력하세요.">
+                                      </div>
+                         </div>
+
+<<<<<<< HEAD
+
+
+
+                    </div>
+
+                    <div class="heading-section ftco-animate mb-5">
+
+                        <div class="tagcloud p-2">
+                            <a href="#" class="tag-cloud-link">채소/과일</a>
+                            <a href="#" class="tag-cloud-link">수산물</a>
+                            <a href="#" class="tag-cloud-link">육류</a>
+                            <a href="#" class="tag-cloud-link">곡물/견과류</a>
+                            <a href="#" class="tag-cloud-link">양념/소스</a>
+                            <a href="#" class="tag-cloud-link">가공/유제품</a>
+                        </div>
+                        <!--  -->
+
+
+
+                        <!--  -->
+
+
+
+                        <div class="heading-menu ftco-animate">
+                            <nav<h3>
+                                </h3>
+                                <div class="row">
+                                    <!-- 1  -->
+                                    <div class="col-md-4 col-lg-4 menu-wrap">
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/참외.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                              <h4 >참외</h4>
+                                              <a href="#" >구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/방울토마토.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                              <h4 >앵두</h4>
+                                              <a href="#" >구매하기</a>
+                                            </div>
+                                        </div>
+
+
+
+=======
+                    <div class="heading-section ftco-animate mb-5">
+                        <div class="heading-menu ftco-animate">
+
+                            <ul class="tabs">
+                                <li class="active" rel="tab1">채소/과일</li>
+                                <li rel="tab2">수산물</li>
+                                <li rel="tab3">육류</li>
+                                <li rel="tab4">곡물/견과류</li>
+                                <li rel="tab5">양념/소스</li>
+                                <li rel="tab6">가공/유제품</li>
+                            </ul>
+                            <div class="tab_container">
+                                <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
+                                <div id="tab1" class="tab_content">
+                                 
+                            <nav>
+
+                                <div class="row">
+                                    <!-- 1  -->
+                                    <div class="col-md-4 col-lg-4 menu-wrap tagcloud">
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/참외.jpg);">
+                                            </div>
+                                            <div class="text menu text-center ">
+                                                <h4>참외</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/방울토마토.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>앵두</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+
+
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/앵두.jpg);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+<<<<<<< HEAD
+                                              <h4 >토마토</h4>
+                                              <a href="#" >구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/매실.jpg);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                              <h4 >매실</h4>
+                                              <a href="#" >구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALoAugMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQYEBwECAwj/xAA2EAABAwMCAwUGBQUBAQAAAAABAAIDBAUREiEGMUETIlFhcQcUgZGhwRUjMrHRM0JS4fBiJP/EABoBAQADAQEBAAAAAAAAAAAAAAABAgQDBQb/xAAhEQEAAgIDAQACAwAAAAAAAAAAAQIDEQQhMRJRYQUTQf/aAAwDAQACEQMRAD8A3iiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAuCcc141VVHSx9pM4tbnGwzusV9ypZo3s1c2Hm3GduS53yVr7Izw4FcqpRVNRFEI2zPawAbA8lJ0N0e6UMqXDS7ZpA5HzWanMpadSMq7XB1vjikbEHhzsEF2MbLHbf4nPYOxcGHmc8vgvTiCHtaDI/seHbfEfdVwZyGkZ8c9CufJ5F8d9QhZaW90s8jmEmPHIybBykQ7KpTmjrsPmva31DqetjldrcNw4A52xgfZVx86fLwbXBcrqDtnyXWSQM3JwPFekl6IurHB7Q5pyCMgrspBERAREQEREBERAREQF1ecNJ22HVdlX+JK8xgUbY3/mAEvxt6DzVMlvisyMaruUtWNEgaxgdyach2+xWM3Jy7Od+gXg17XHJ2PLGF2EjWnuvGeoLsFeFkvN53KNvbIcOXlyXVzMkBhx47oXEtBAwDyd0K5BztjceS5zIyhd5XUZppQHEt0l56jHgsN3lkHpujmbHxXVuXbjbyKtkyWvMTI5OCB4c1yNsP5ea8n7ODuYd0O2PHf5fVekeuaUU8Dcv06jk4DB/kSoiJtOq+oZkFdWucRBI+aXSQxrj3dXifIc16ULKir7OlbUPmgiIFRUvO8h56R91zThtZUijgBZRgfmOYd5fj4KwRRsiYGRtDGjk0L1eNT6r7uHTqHZuBsF2XAK5W5UREQEREBERAREQEREBeNTAyoidHK0OaQvZcOOAomI12KfW2qpo3NJPaMccAtBd80it9VK0aKdwB8R9ys+quNU2VzDI1oBI7g5rHiuc8B7srnDwduvEv8A0/eu0dMOahmppPzGOjLtgc815SzOpmbnJPLbmpme5+90xjkgZgnmXjb5qm1nEMdBUT6g0HSY8OGdPp/K18XiY8uSdT0aZsV+hkqRBKOzc44bvn91JOLQM7DIzpxg/wDfwteW0U9+vEju1d7rTtDpA04LiThoz8D8lZ7zVxU1GyaGU9ruHtA/SBy36lac38VS1omk6gZ9XMexJYW4DgCA7Bzg/wC1hWjiBlQKi2xQntdQdLUjc6R0P0wqPdOJaiGMgEYeMB2O8T4bdVO8IXGCjtVJJUwd6VzpJY5BguOSBkegC2xw8MV+Kx2LSL0+jefd8h52ztg+Cwa7jK7WOvLKxzJhneMkEY8iFCXe5Q4e5pbknIDeiqF2rJJ6kRNGR03336Lpj4+PDT5rC9X0ZZ7jDdrdBXUxPZzMDgDzB6hZqrPs4pJqPhChbOe9K0ygeDXHI+isyzz70qIiKAREQEREBERAREQFFXySVlMNDw1rjhwPM+ilVAX+QNlYC9xy3ZgGw81n5NvnHMwIo4d+rn8kDGBpcQfmuGvGe9sQsG+V7aaAAf3bevxXmcbBGXLFZQ8qq7CCcQRRPlLzpAbzyfBRnFvDzLhG2rkc6ne4YyBljv8Aa8o+Ioq64ue9ze1jhLWtaP0gYB+ijb1fpKiNsXbFzWjAHMBfQY+JixW+6+kRtj2q0ut1HVyW+qM82xfGBggDr581DV1zr6g9jI1222NJBKm+DmVU1xdVMfop2Ah7nDJcT0A6lWS6yyULiZqdjHPbs58YzjxV4nLFpiO4TPUorhO2wQtjlruzZK8/1HjJjb1x5n7LpxDWMaCyPEjc4y7fIUXUXhxe6nDz27d8Z/qNPIj6hQ8s1XUykyAsYzdzjyHmV36jtCStdGysuLaYy6Q/DiX/AKWN9fgVO3aittJL2UJiniYB+djSc+qrVHVMkhe+lce2Bw4g4JHQjy5rFqq6eVjmvcct2w7on7lLffBNTDPwzb2QP1Cnp2QuPm1oGfop1aM4W4lktNtbFRzy9s1+Swn8sjHzyts8LX2O/wBrFUxuiRriyRmc6XD/AIFY7UmOxNIiKgIiICIiAiIgIiICq1ypLnU1Uk0tO4RtGG6Xg4A6gA53VpXBGy55McZI1Ioxa9hIlY4OxnDhvheVwpoK6kkp529x436EehVxuFuhq2ucWgTacNf1Cg32WqhY+Rzo3hgLsMJ3Xm5OPkxW+qdo017FwJ2NeKiGuc3HTRkuB5j4qHv9jktU+JpNcZ3AaPtlbMqpBSUgqZ2HS44aHbavgqxfaetvNyMVVCIqmXSQ3kA0jbZenwbZ8kTOTwiUTYrvDTWv8s40THVnxwFiXziJ9wOC5z3csk5wFYZ+DKC32x8sUcjnPIbJOXkBx8m8sfXzVMuVA2limNJplna0ljHk4OF6NfE/6ybTYaW71MVbcQ50NOC1sTSW9o4kHBI3AGPqrHf7Xb6ambHU0lI5hbqAYBqZnluOvxVT4RvrmWyeGqH/ANMcpdyxlp5H4cvku9zuM1R3WtOgpGpjaGEWQ01SY2Aua4ao3cjjwWNXyulc2MPMj4/197JbnkPorFw9aILnLJ73K1jYYiRl7mkk9AR1URc7NBaKh1Xb3yaDs8POcfyPVRO9ahLHpTJBH11Lcvsht9RS2Goqahrmiql1Rh3UAYz8/wBlG+znhGCvtjLre6MapXaqeMgtBZ0c4ef7LZscbYmNYxoa1owABgBZ8lo8haZ605HJcoi5KiIiAiIgIiICIiAiIgLghcog197WHyU9NRTtJ7MFzXEf2nbdUyx8TM/FaeOpcdUupoc48zggbrdNdb6SvaG1tPHM0Z7sjcjdU38FsVDWVPutNFCWggOcNRHk3PJdsd518oVu/X7SzsnvLmjk3PVU1tV77VjsGEvc4ADzUjf6dhrHMwQHO9MKvUt1mt13opBTaYmVLdYadTnDOD/PwWiZ0le4uCLfabW2oc0zVGcOmc/Tg+DW+AVXngPbOEMpDW5yNI1H4qbv19lj2bHJ2ZPPBwPRViaeWWKRxOgy91mNjk/wMpEahDPhu7qeIQRR4Gdzn9Sz7PcaZl3oZri5jaZsze07QagR6eqjGUTmhrpTG4kbkFRlTTvkvjC9+mlgY1wH/r+UnxL6epZoqiFs0D2vieMtc05BC9lrD2P3qWsqLjbiXGGFjZGAnOkkkEBbPCx2r8zoERFUEREBERAREQEREBERAREQQvE14baKTU3BmkyGA+S1vfq6ughZK0te+UF+WOBI9R0Vl9q9JUutsFfTsc9tMSJABnAON/otd2O+g1ZglP8AUidpPQnb/a04oj5Trpgn8RrpzJUtcxg33aRsrFwfbaG3xm5TfnyyyOLSdixgOCB4EkHf0WBeuJo5YhTvzJobpYG7ADwCjaS5yPoGQsyxzHO07/qBOfoc/Rdp0j1N327tfNJ2LQGk5LScjHgqnLIx1aIXDGW643k5x4tPoeR88LIfFVVLtIaSSdgBuSfD1U+eCB7t7zW1MmprQ0sgYMM9XHnuq9ytOtMbhqxVV+r/AHamqotTWa3as4wPh4rvW+z/AIpdXENt5k1HdwkaGeuc/ZXj2V01to3VcUU5lrjjOoY7g8Pv6LYy5XyTFtKqj7O+DxwpbpPeHiWvqcGd7eQxyaPIZO6tyIuEzvsERFAIiICIiAiIgIiICIiAiIg6uaHAhwBB2IPVVq6cN8N0uqufZ6MzDkez2z6clZlE8UUc1ZaZW039ZnfaP8sdFNfRrC/Wexw6J4A4SPJ1s/tbk8goq626lEhfEGt0DAaVgV8tVLK9srZGb7txy8fRTds4ZrbxRCqrJXxhrNRDR3iwcnHwytkaTpXbYwUt3ppZJCWMkz4gHopm5cVyCN1Ix7+z1d9vIZXm2goqSrYXTOczO4I3wse/utU1a6ajpxCHDdpeXDV4jkp8RqUx7NTUVPF1O+InQxr3SY5acEfuQt2Kmey2CiHDUdTS07Y5nvc2WTq8g7fDCuay5LbsCIi5giIgIiICIiAiIgIiICIiAiIgLpK0uie1pwSDg+C7oeSD54437f8AFJaeUvhcyXEuCRqGeqsVfddLSwO0tIADR4dFtS42W23ItdX0MM7mnZz27j4rUnF9HRzXeZlIRTMB06WjYY25LTjtMzOk9KzW1Dpp8Rb4PyUhScE8QXKqAbQvjjc7IfLs0NzzWJKGW0sfG5rnsOoO5/Rb84fr/wAUslDXacGeFr3DwON/qmS01TM/h5cNWiOxWent8btfZglz/wDJx3J+alkRZlRERAREQEREBERAREQEREBERAREQEREHB5LU3tG4TuwrpbhZ4JKiCXvPjiGXsPXbqPRbaXGFat5rO4HzxYuC+ILzVtYaSaCHVl807S1rfnz9Fv+20cNut9NRUwxFTxtjZnngDCyMea5Cm15t6CIioCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiD/9k=);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                              <h4 >포도</h4>
+                                              <a href="#" >구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
+                                        </div>
+                                            <div class="text menu text-center align-middle ">
+                                              <h4 >토마토</h4>
+                                              <a href="#" >구매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="col-md-4 col-lg-4 menu-wrap">
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/오징어.jpg);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth price">
+                                                        <h3>오징어</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(data:image/jpeg;base64,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);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>포도</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>양파</h3>
+
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth price">
+                                                        <h3>사과</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(data:image/jpeg;base64,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);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>포도</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>양파</h3>
+
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+=======
+                                                <h4>토마토</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/매실.jpg);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                                <h4>매실</h4>
+                                                <a href="#">구매하기</a>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+                                            </div>
+                                        </div>
+                                    </div>
+
+<<<<<<< HEAD
+                                    <!-- 1  -->
+                                    <div class="col-md-4 col-lg-4 menu-wrap">
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth price">
+                                                        <h3>사과</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+=======
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/포도.jpg);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                                <h4>포도</h4>
+                                                <a href="#">구매하기</a>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+<<<<<<< HEAD
+                                                style="background-image: url(data:image/jpeg;base64,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);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>포도</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>양파</h3>
+
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth price">
+                                                        <h3>사과</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+=======
+                                                style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                                <h4>양파</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- 2 -->
+                                    <div class="col-md-4 col-lg-4 menu-wrap tagcloud">
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/깻잎.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>깻잎</h4>
+                                                <a href="#">구매하기</a>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+<<<<<<< HEAD
+                                            <div class="menu-img img"
+                                                style="background-image: url(data:image/jpeg;base64,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);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>포도</h3>
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img"
+                                                style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
+                                            </div>
+                                            <div class="text">
+                                                <div class="d-flex">
+                                                    <div class="one-forth">
+                                                        <h3>양파</h3>
+
+                                                    </div>
+                                                    <div class="one-forth">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                    </form>
+                                </div>
+                        </div>
+                    </div>
+=======
+                                            <div class="menu-img img" style="background-image: url(images/가지.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>가지</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/애호박.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>애호박</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/콩나물.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>콩나물</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/세발나물.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>세발나물</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/당근.jpg);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                                <h4>당근</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+
+                                    <!-- 2 -->
+                                    <div class="col-md-4 col-lg-4 menu-wrap tagcloud">
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/팽이버섯.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>팽이버섯</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/감자.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>감자</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+<<<<<<< HEAD
                 </div>
-              </div>
-            </div>
-          </div>
+                <div class="col-md-4 p-3 ftco-animate">
+                    <div class=" heading-section ftco-animate text-center">
+                        <h3>장보기 진행율</h3>
+=======
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/강낭콩.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>강낭콩</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/꽈리고추.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>꽈리고추</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+
+<<<<<<< HEAD
+                        <div class="progress-bar " style="width:100%"> 100%</div>
+                    </div>
+                    <div class="mb-3  px-3 mt-5">
+                        <input type="submit" value="냉장고 넣기" class="px-5 btn btn-primary md-5  ">
+                    </div>
+=======
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/도라지.jpg);">
+                                            </div>
+                                            <div class="text menu text-center">
+                                                <h4>도라지</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+
+                                        <div class="menus d-flex ftco-animate">
+                                            <div class="menu-img img" style="background-image: url(images/아욱.jpg);">
+                                            </div>
+                                            <div class="text menu text-center align-middle ">
+                                                <h4>아욱</h4>
+                                                <a href="#">구매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
-
-
-
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                김치찌개
-              </a>
-            </div>
-            <div id="collapseTwo" class="collapse" data-parent="#accordion">
-              <div class="card-body">
-                Lorem ipsum..
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                Collapsible Group Item #3
-              </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-parent="#accordion">
-              <div class="card-body">
-                Lorem ipsum..
-              </div>
-            </div>
-          </div>
-        </div>
-        END 메모 -->
-
-
-
-
-
-        <div class="col-md-8 ftco-animate makereservation p-4 p-md-6">
-          <div class="heading-section ftco-animate mb-5">
-
-            <h2 class="mb-2">식재료 찾기</h2>
-
-            <form action="#" class="search-form">
-              <div class="form-group">
-                <span class="icon icon-search"></span> <input type="text" class="form-control" onkeyup="filter()"
-                  placeholder="제품명이나 상품명을 입력하세요.">
-              </div>
-
-              <div class="tagcloud p-2">
-                <a href="#" class="tag-cloud-link">채소/과일</a>
-                <a href="#" class="tag-cloud-link">수산물</a>
-                <a href="#" class="tag-cloud-link">육류</a>
-                <a href="#" class="tag-cloud-link">곡물/견과류</a>
-                <a href="#" class="tag-cloud-link">양념/소스</a>
-                <a href="#" class="tag-cloud-link">가공/유제품</a>
-              </div>
-
-
-
-
-              <div class="heading-menu ftco-animate">
-                <nav<h3>
-                  </h3>
-                  <div class="row">
-                    <div class="col-md-4 col-lg-4 menu-wrap">
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
-                        </div>
-                        <div class="text">
-                          <h3 class="py-4">사과</h3>
-
-                        </div>
-                      </div>
-
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(data:image/jpeg;base64,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);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>포도</h3>
+                                    </form>
+                                </div>
+                                </div>
+                                <!-- #tab1 -->
+                                <h3 class="tab_drawer_heading" rel="tab2">Tab 2</h3>
+                                <div id="tab2" class="tab_content">
+                                    <h2>Tab 2 content</h2>
+                                    <p>Nunc dui velit, scelerisque eu placerat volutpat, dapibus eu nisi. Vivamus
+                                        eleifend vestibulum odio non vulputate.</p>
+                                </div>
+                                <!-- #tab2 -->
+                                <h3 class="tab_drawer_heading" rel="tab3">Tab 3</h3>
+                                <div id="tab3" class="tab_content">
+                                    <h2>Tab 3 content</h2>
+                                    <p>Nulla eleifend felis vitae velit tristique imperdiet. Etiam nec imperdiet elit.
+                                        Pellentesque sem lorem, scelerisque sed facilisis sed, vestibulum sit amet eros.
+                                    </p>
+                                </div>
+                                <!-- #tab3 -->
+                                <h3 class="tab_drawer_heading" rel="tab4">Tab 4</h3>
+                                <div id="tab4" class="tab_content">
+                                    <h2>Tab 4 content</h2>
+                                    <p>Integer ultrices lacus sit amet lorem viverra consequat. Vivamus lacinia interdum
+                                        sapien non faucibus. Maecenas bibendum, lectus at ultrices viverra, elit magna
+                                        egestas magna, a adipiscing mauris justo nec eros.</p>
+                                </div>
+                                <!-- #tab4 -->
                             </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                            <!-- .tab_container -->
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>양파</h3>
+                    <div class="form-group  px-3 ">
+                      
+                     
+                        <div class="col-md-12 mt-3 section"></div>
+                       
+                      
 
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth price">
-                              <h3>사과</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(data:image/jpeg;base64,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);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>포도</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
                         </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>양파</h3>
-
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 menu-wrap">
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth price">
-                              <h3>사과</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(data:image/jpeg;base64,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);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>포도</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>양파</h3>
+<<<<<<< HEAD
 
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth price">
-                              <h3>사과</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(data:image/jpeg;base64,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);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>포도</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>양파</h3>
 
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+
+=======
+                </div>
+                <div class="col-md-4 p-3 ftco-animate">
+                    <div class=" heading-section ftco-animate px-3 ">
+             
+                        
+                        <div class="progress-bar mb-3" style="width:100%"> 100%</div>
+                        <h2 class="mb-2">장보기 리스트</h2>
                     </div>
+                  
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
 
-                    <div class="col-md-6 col-lg-4 menu-wrap">
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth price">
-                              <h3>사과</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(data:image/jpeg;base64,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);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>포도</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="form-group  px-3 ">
+                         
+                     
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>양파</h3>
+<<<<<<< HEAD
 
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://ww.namu.la/s/4c7d1d567d727c95854e58716c69e3ea5714d6dc55df4efed79c97d0d2a8932f4cd8cf5aa761e44c567046889c4e2d0ef4702f5ba7d9cdddf4371bba7987273c28872dd6b89cfe0f7e35139b96b2e13eecac2b28fe8525647bb3b8c085fb707c);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth price">
-                              <h3>사과</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                        <h3>장보기 list</h3>
+                        <ol class="categories py-2">
+=======
+                        <ol class="categories py-2">
+                           
+                            
+                          
+                            
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+                            <li><a href="#">채소/과일 <span>(6)</span></a></li>
+                            <li><input type="checkbox" name="chk_info" value="콩나물"> 콩나물 </li>
+                            <li><input type="checkbox" name="chk_info" value="세발나물"> 세발나물 </li>
+                            <li><input type="checkbox" name="chk_info" value="팽이버섯"> 팽이버섯 </li>
+                            <li><input type="checkbox" name="chk_info" value="양파"> 양파 </li>
+                            <li><input type="checkbox" name="chk_info" value="당근"> 당근 </li>
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(data:image/jpeg;base64,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);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>포도</h3>
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                            <li><a href="#">수산물 <span>(8)</span></a></li>
+                            <li><input type="checkbox" name="chk_info" value="고등어"> 고등어 </li>
+                            <li><a href="#">육류 <span>(2)</span></a></li>
+                            <li><input type="checkbox" name="chk_info" value="소고기 국거리용"> 소고기 국거리용 </li>
+                            <li><a href="#">곡물/견과류 <span>(2)</span></a></li>
+                            <li><input type="checkbox" name="chk_info" value="호두"> 호두 </li>
+                            <li><a href="#">양념/소스 <span>(2)</span></a></li>
+                            <li><input type="checkbox" name="chk_info" value="고추장"> 고추장 </li>
+                            <li><a href="#">가공/유제품 <span>(2)</span></a></li>
+                            <li><input type="checkbox" name="chk_info" value="다크초콜릿커버취"> 다크초콜릿커버취</li>
+                            <li><input type="checkbox" name="chk_info" value="국수"> 국수</li>
+                        </ol>
+<<<<<<< HEAD
 
-                      <div class="menus d-flex ftco-animate">
-                        <div class="menu-img img"
-                          style="background-image: url(https://w.namu.la/s/30fc0997fe5bd00de6d463aea6ffe9036ab2448113480cbefad938034dee08062db4f33602b78ffc1f794f02e6d7adee58b3d6e774a9ca0ad9fdfc1ea21edd63449e3d3b83c433e68c35d1c2c410ccb5d152214c9febb3295cc07b23ee1f6135e519986f01d4290d603a36ec86c3b9a3);">
-                        </div>
-                        <div class="text">
-                          <div class="d-flex">
-                            <div class="one-forth">
-                              <h3>양파</h3>
-
-                            </div>
-                            <div class="one-forth">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-            </form>
+                </div>
+                
+=======
+                        <input type="submit" value="냉장고 넣기" class=" btn btn-primary  ">
+                    </div>
+                </div>
 
-          </div>
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+            </div>
         </div>
-
-      </div>
-    </div>
-
-    <div class="col-md-4 p-3 ftco-animate">
-
-      <div class="mb-4 progress form-group px-3  mt-3">
-
-        <div class="progress-bar " style="width:100%"> 진행율 : 100%</div>
-
-      </div>
-    
-      
-       <h4>장보기 리스트</h4>
-      
-    
-    
-      
-  
-      <div class="form-group px-3 ">
-        
-        <div class="col-md-12 mt-3"></div>
-        <input type="submit" value="냉동실 넣기" class="px-5 btn btn-primary md-5  ">
-        <ul class="categories py-2">
-          <li><a href="#">채소/과일 <span>(6)</span></a></li>
-          <li><input type="checkbox" name="chk_info" value="올리브유"> 올리브유 </li>
-          <li><a href="#">수산물 <span>(8)</span></a></li>
-          <li><input type="checkbox" name="chk_info" value="올리브유"> 올리브유 </li>
-          <li><a href="#">육류 <span>(2)</span></a></li>
-          <li><input type="checkbox" name="chk_info" value="올리브유"> 올리브유 </li>
-          <li><a href="#">곡물/견과류 <span>(2)</span></a></li>
-          <li><input type="checkbox" name="chk_info" value="올리브유"> 올리브유 </li>
-          <li><a href="#">양념/소스 <span>(2)</span></a></li>
-          <li><input type="checkbox" name="chk_info" value="올리브유"> 올리브유 </li>
-          <li><a href="#">가공/유제품 <span>(2)</span></a></li>
-          <li><input type="checkbox" name="chk_info" value="다크초콜릿커버취"> 다크초콜릿커버취</li>
-          <li><input type="checkbox" name="chk_info" value="다크초콜릿커버취"> 다크초콜릿커버취</li>
-        </ul>
-      </div>
-
-
-    </div>
+    </section>
 
 
 
-    </div>
-
-
-    </div>
 
 
 
-  </section>
 
-
-
-  <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-12 col-lg-12 text-center">
-          <div class="ftco-footer-widget">
-            <h2 class="ftco-heading-2"><img src="images/logo.png"></h2>
-            <p>일요일은 내가 요리사? No!<br>매일매일 모두가 요리사!</p>
-            <ul class="ftco-footer-social list-unstyled float-md-none float-none mt-3">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12 col-lg-12 text-center">
+                    <div class="ftco-footer-widget">
+                        <h2 class="ftco-heading-2"><img src="images/logo.png"></h2>
+                        <p>일요일은 내가 요리사? No!<br>매일매일 모두가 요리사!</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-none float-none mt-3">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Open Hours</h2>
+						<ul class="list-unstyled open-hours">
+							<li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+							<li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+							<li class="d-flex"><span>Sunday</span><span> Closed</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Newsletter</h2>
+						<p>Far far away, behind the word mountains, far from the countries.</p>
+						<form action="#" class="subscribe-form">
+							<div class="form-group">
+								<input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+								<input type="submit" value="Subscribe" class="form-control submit px-3">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Instagram</h2>
+						<div class="thumb d-sm-flex">
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+							</a>
+						</div>
+						<div class="thumb d-flex">
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+							</a>
+						</div>
+					</div>
+				</div>
+-->
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="icon-heart"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
         </div>
+    </footer>
 
 
-        <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
             <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
             <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-              stroke="#F96D00" /></svg></div>
+                stroke="#F96D00" /></svg></div>
 
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery-migrate-3.0.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/jquery.animateNumber.min.js"></script>
-        <script src="js/bootstrap-datepicker.js"></script>
-        <script src="js/jquery.timepicker.min.js"></script>
-        <script src="js/scrollax.min.js"></script>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-        <script src="js/google-map.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/sanghyun.js"></script>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sanghyun.js"></script>
+<<<<<<< HEAD
+    <script src="js/donghyun.js"></script>
+=======
+  
+>>>>>>> 60d9edd042166461fb1c9ccbe7b8cd25a6760e61
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
