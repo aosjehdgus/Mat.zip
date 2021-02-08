@@ -116,7 +116,7 @@
                                                 <div class="menu-img img" style="background-image: url(images/참외.jpg);">
                                                 </div>
                                                 <div class="text menu text-center ">
-                                                    <h4>참외</h4>
+                                                    <h5>참외</h5>
                                                     <a href="#">구매하기</a>
                                                 </div>
                                             </div>
