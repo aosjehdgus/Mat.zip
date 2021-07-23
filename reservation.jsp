@@ -344,7 +344,7 @@
                                 
                               
                                 
-                                <li><a href="#">채소/과일 <span>(6)</span></a></li>
+                                <li><a href="#">채소/과일 <span>(1)</span></a></li>
                                 <li><input type="checkbox" name="chk_info" value="콩나물"> 콩나물 </li>
                                 <li><input type="checkbox" name="chk_info" value="세발나물"> 세발나물 </li>
                                 <li><input type="checkbox" name="chk_info" value="팽이버섯"> 팽이버섯 </li>
